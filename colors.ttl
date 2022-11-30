@@ -16,6 +16,6 @@ colour:violet a skos:Concept ;
     skos:topConceptOf colour: .
 
 colour:red a skos:Concept ;
-    skos:prefLabel "roouge"@fr, "red"@en ;
+    skos:prefLabel "rouge"@fr, "red"@en ;
     skos:altLabel "pourpre"@fr, "crimson"@en ;
     skos:topConceptOf colour: .
