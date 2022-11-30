@@ -9,7 +9,8 @@
     "id": "https://example.org/colour-with-hierarchy/green",
     "prefLabel": {
       "en": "green",
-      "de": "Grün"
+      "de": "Grün",
+      "fr": "vert"
     }
   },
   "inScheme": {

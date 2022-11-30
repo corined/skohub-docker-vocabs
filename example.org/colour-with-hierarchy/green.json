@@ -3,7 +3,8 @@
   "type": "Concept",
   "prefLabel": {
     "en": "green",
-    "de": "Grün"
+    "de": "Grün",
+    "fr": "vert"
   },
   "narrower": [
     {
