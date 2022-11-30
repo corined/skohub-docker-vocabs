@@ -11,15 +11,24 @@ colour: a skos:ConceptScheme ;
     skos:hasTopConcept colour:violet, colour:green .
 
 colour:violet a skos:Concept ;
-    skos:prefLabel "Violett"@de, "violet"@en ;
+    skos:prefLabel "Violett"@de, "violet"@en, "violet"@fr ;
     skos:altLabel "Lila"@de, "purple"@en ;
     skos:topConceptOf colour: .
 
 colour:green a skos:Concept ;
-    skos:prefLabel "green"@en, "Grün"@de ;
+    skos:prefLabel "green"@en, "Grün"@de, "vert"@fr ;
     skos:narrower colour:grassgreen ;
     skos:topConceptOf colour: .
     
 colour:grassgreen a skos:Concept ;
     skos:prefLabel "grass-green"@en, "Grasgrün"@de ;
+    skos:inScheme colour: .
+
+colour:blue a skos:Concept ;
+    skos:prefLabel "blue"@en, "blu"@de, "bleu"@fr ;
+    skos:narrower colour:seablue ;
+    skos:topConceptOf colour: .
+
+colour:seablue a skos:Concept ;
+    skos:prefLabel "sea blue"@en, "bleu marine"@fr ;
     skos:inScheme colour: .
